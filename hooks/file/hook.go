@@ -13,7 +13,6 @@ import (
 
 	"github.com/gogap/config"
 	"github.com/gogap/logrus_mate"
-	"github.com/gogap/logrus_mate/hooks/utils/caller"
 )
 
 type fileHookConfig struct {
@@ -140,17 +139,17 @@ func getMessage(entry *logrus.Entry) (message string, err error) {
 		buf.WriteString(fmt.Sprintf("\tstacktrace:\n\t\t%s", st))
 
 		message = message + fmt.Sprintf("%v", buf.String())
-	} else {
-		file, lineNumber := caller.GetCallerIgnoringLogMulti(2)
-		if file != "" {
-			sep := fmt.Sprintf("%s/src/", os.Getenv("GOPATH"))
-			fileName := strings.Split(file, sep)
-			if len(fileName) >= 2 {
-				file = fileName[1]
-			}
-		}
-		message = message + fmt.Sprintf("%s:%d", file, lineNumber)
-	}
+	} //else {
+	// file, lineNumber := caller.GetCallerIgnoringLogMulti(2)
+	// if file != "" {
+	// 	sep := fmt.Sprintf("%s/src/", os.Getenv("GOPATH"))
+	// 	fileName := strings.Split(file, sep)
+	// 	if len(fileName) >= 2 {
+	// 		file = fileName[1]
+	// 	}
+	// }
+	// message = message + fmt.Sprintf("%s:%d", file, lineNumber)
+	//}
 
 	return
 }
