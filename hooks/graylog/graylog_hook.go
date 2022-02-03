@@ -1,8 +1,8 @@
 package graylog
 
 import (
+	"github.com/45hur/logrus"
 	"github.com/gogap/config"
-	"github.com/sirupsen/logrus"
 	"gopkg.in/gemnasium/logrus-graylog-hook.v2"
 
 	"github.com/gogap/logrus_mate"

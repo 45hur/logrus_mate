@@ -8,7 +8,7 @@ import (
 
 	"github.com/gogap/config"
 
-	"github.com/sirupsen/logrus"
+	"github.com/45hur/logrus"
 )
 
 var (

@@ -1,8 +1,8 @@
 package logrus_mate
 
 import (
+	"github.com/45hur/logrus"
 	"github.com/gogap/config"
-	"github.com/sirupsen/logrus"
 )
 
 type NullFormatter struct {

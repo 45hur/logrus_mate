@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sirupsen/logrus"
+	"github.com/45hur/logrus"
 
 	"github.com/gogap/config"
 	"github.com/gogap/logrus_mate"

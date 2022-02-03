@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
+	"github.com/45hur/logrus"
 	"github.com/gogap/errors"
 	"github.com/gogap/logrus_mate"
-	"github.com/sirupsen/logrus"
 
 	_ "github.com/gogap/logrus_mate/hooks/expander"
 	_ "github.com/gogap/logrus_mate/hooks/file"

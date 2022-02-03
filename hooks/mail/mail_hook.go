@@ -1,8 +1,8 @@
 package mail
 
 import (
+	"github.com/45hur/logrus"
 	"github.com/gogap/config"
-	"github.com/sirupsen/logrus"
 	"github.com/zbindenren/logrus_mail"
 
 	"github.com/gogap/logrus_mate"

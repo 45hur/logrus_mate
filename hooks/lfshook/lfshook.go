@@ -3,10 +3,10 @@ package lfshook
 import (
 	"fmt"
 
+	"github.com/45hur/logrus"
 	"github.com/gogap/config"
 	"github.com/gogap/logrus_mate"
 	"github.com/rifflock/lfshook"
-	"github.com/sirupsen/logrus"
 )
 
 func init() {

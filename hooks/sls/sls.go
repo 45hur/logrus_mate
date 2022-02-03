@@ -8,9 +8,9 @@ import (
 	"github.com/gogap/config"
 	"github.com/gogap/logrus_mate"
 
+	"github.com/45hur/logrus"
 	"github.com/aliyun/aliyun-log-go-sdk"
 	"github.com/gogo/protobuf/proto"
-	"github.com/sirupsen/logrus"
 )
 
 var allLevels = []logrus.Level{

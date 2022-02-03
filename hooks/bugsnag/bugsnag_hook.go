@@ -1,9 +1,9 @@
 package bugsnag
 
 import (
+	"github.com/45hur/logrus"
 	"github.com/Shopify/logrus-bugsnag"
 	"github.com/bugsnag/bugsnag-go"
-	"github.com/sirupsen/logrus"
 
 	"github.com/gogap/config"
 	"github.com/gogap/logrus_mate"

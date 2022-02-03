@@ -3,8 +3,8 @@ package syslog
 import (
 	"log/syslog"
 
-	"github.com/sirupsen/logrus"
-	logrus_syslog "github.com/sirupsen/logrus/hooks/syslog"
+	"github.com/45hur/logrus"
+	logrus_syslog "github.com/45hur/logrus/hooks/syslog"
 
 	"github.com/gogap/config"
 	"github.com/gogap/logrus_mate"

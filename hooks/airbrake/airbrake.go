@@ -1,7 +1,7 @@
 package airbrake
 
 import (
-	"github.com/sirupsen/logrus"
+	"github.com/45hur/logrus"
 	"gopkg.in/gemnasium/logrus-airbrake-hook.v2"
 
 	"github.com/gogap/config"

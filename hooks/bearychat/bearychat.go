@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"github.com/gogap/config"
 
+	"github.com/45hur/logrus"
 	"github.com/gogap/bearychat"
 	"github.com/gogap/logrus_mate"
-	"github.com/sirupsen/logrus"
 )
 
 var allLevels = []logrus.Level{
